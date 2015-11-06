@@ -1,0 +1,39 @@
+.fixed-bg {
+    background-image: url("../img/course.jpg");
+    min-height: 610px;
+    background-attachment: fixed;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+.white{
+    color: white;
+}
+.padding-top{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.navbar + .container {
+    margin-top: 62px;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
